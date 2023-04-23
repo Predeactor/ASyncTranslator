@@ -7,7 +7,7 @@ line_length = 99
 
 [tool.poetry]
 name = "asynctranslator"
-version = "1.0.0"
+version = "1.0.1"
 description = "Typed Async-to-sync & Sync-to-async utility"
 authors = ["Predeactor <pro.julien.mauroy@gmail.com>"]
 classifiers = [
