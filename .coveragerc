@@ -1,0 +1,13 @@
+[run]
+source = asynctranslator
+
+[report]
+precision = 1
+exclude_lines =
+    pragma: no cover
+    if TYPE_CHECKING:
+    \.\.\.$
+
+[html]
+directory = tests/htmlcov
+show_contexts = true
