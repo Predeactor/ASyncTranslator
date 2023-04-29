@@ -9,7 +9,11 @@ line_length = 99
 name = "asynctranslator"
 version = "1.0.1"
 description = "Typed Async-to-sync & Sync-to-async utility"
+license = "BSD-3-Clause"
 authors = ["Predeactor <pro.julien.mauroy@gmail.com>"]
+maintainers = ["Predeactor <pro.julien.mauroy@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/Predeactor/ASyncTranslator"
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
@@ -27,7 +31,6 @@ classifiers = [
 packages = [
     { include = "asynctranslator" }
 ]
-readme = "README.md"
 include = ["LICENSE", "LICENSE.django"]
 
 [tool.poetry.dependencies]
